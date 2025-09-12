@@ -1,0 +1,8 @@
+origem,destino,peso
+Restaurante,A,4
+Restaurante,B,2
+A,C,3
+B,C,1
+B,D,7
+C,E,5
+D,E,2

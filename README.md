@@ -107,16 +107,19 @@ Se estiver no GitHub:
 ```bash
 git clone https://github.com/seu-usuario/Rota-Inteligente.git
 cd Rota-Inteligente
+```
 
 ### 3. Instalar dependências
 Instale as bibliotecas necessárias:
 ```bash
 pip install -r requirements.txt
+```
 
 ### 4. Executar o projeto
 Para rodar o código principal:
 ```bash
 python src/main.py
+```
 
 ### 5. Resultados
 - O grafo com a rota ótima será salvo em: docs/grafo.png

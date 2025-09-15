@@ -96,6 +96,36 @@ Visualização:
 
 ---
 
+## 🛠️ Instruções de Execução  
+
+### 1. Pré-requisitos  
+- Python 3.10 ou superior instalado  
+- Git instalado (opcional, se for clonar o repositório)  
+
+### 2. Clonar o repositório  
+Se estiver no GitHub:  
+```bash
+git clone https://github.com/seu-usuario/Rota-Inteligente.git
+cd Rota-Inteligente
+
+### 3. Instalar dependências
+Instale as bibliotecas necessárias:
+```bash
+pip install -r requirements.txt
+
+### 4. Executar o projeto
+Para rodar o código principal:
+```bash
+python src/main.py
+
+### 5. Resultados
+- O grafo com a rota ótima será salvo em: docs/grafo.png
+- O gráfico de clusters das entregas será salvo em: docs/clusters.png
+- Também será exibido no console:
+ - Melhor caminho encontrado pelo algoritmo A*
+ - Custo total da rota
+ - Clusters de entregas com os clientes atribuídos
+
 ## 📚 Referências  
 - UPS – ORION: [Wired](https://www.wired.com/2013/06/ups-astronomical-math)  
 - Medium – Optimizing Logistics: [Clustering e MILP](https://medium.com/%40KingHenryMorgansDiary/optimizing-logistics-a-case-study-on-clustering-and-milp-for-delivery-route-optimization-f47fed709ad2)  
